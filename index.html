@@ -36,10 +36,10 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -49,7 +49,7 @@
     <section style="height: 650px">
       <div class="container">
         <div class="pt-5 d-flex flex-column px-5">
-          <h1 class="pt-5">
+          <h1 class="pt-5 display-1 fw-bold">
             I'm Glory<br />
             Glad to see you!
           </h1>
@@ -61,16 +61,16 @@
           </p>
           <h5 class="text-uppercase text-primary">Let's Connect</h5>
           <div>
-              <img src="./images/twitter.png" alt="twitter icon">
-              <img src="./images/Linkedinicon.png" alt="linkedin icon">
-              <img src="./images/gitgub.png" alt="github icon">
-              <img src="./images/Vector.png" alt="Medium icon">
-              <img src="./images/Vector3.png" alt="angelist icon">
-            </div>
+            <img src="./images/twitter.png" alt="twitter icon" />
+            <img src="./images/Linkedinicon.png" alt="linkedin icon" />
+            <img src="./images/gitgub.png" alt="github icon" />
+            <img src="./images/Vector.png" alt="Medium icon" />
+            <img src="./images/Vector3.png" alt="angelist icon" />
+          </div>
         </div>
       </div>
     </section>
-    <section id="portfoilo container">
+    <section id="portfoilo" class="bg-light">
       <div class="container">
         <div class="d-flex flex-column p-5">
           <div class="card mb-3" style="max-width: 100%">
@@ -96,7 +96,7 @@
                     A daily selection of privately personalized reads; no
                     accounts or sign-ups required.
                   </p>
-                  <ul class="d-flex list-unstyled text-primary">
+                  <ul class="d-flex list-unstyled text-primary gap-2">
                     <li class="px-3 bg-light">html</li>
                     <li class="px-3 bg-light">css</li>
                     <li class="px-3 bg-light">Javascript</li>
@@ -132,7 +132,7 @@
                     add to an existing story over the course of a day without
                     spamming their friends.
                   </p>
-                  <ul class="d-flex list-unstyled text-primary">
+                  <ul class="d-flex list-unstyled text-primary gap-2">
                     <li class="px-3 bg-light">html</li>
                     <li class="px-3 bg-light">Ruby on rails</li>
                     <li class="px-3 bg-light">css</li>
@@ -169,7 +169,7 @@
                     Reality app; a place to discover and enjoy 360 photos and
                     videos on Gear VR.
                   </p>
-                  <ul class="d-flex list-unstyled text-primary">
+                  <ul class="d-flex list-unstyled text-primary gap-2">
                     <li class="px-3 bg-light">html</li>
                     <li class="px-3 bg-light">Ruby on rails</li>
                     <li class="px-3 bg-light">css</li>
@@ -205,7 +205,7 @@
                     A daily selection of privately personalized reads; no
                     accounts or sign-ups required.
                   </p>
-                  <ul class="d-flex list-unstyled text-primary">
+                  <ul class="d-flex list-unstyled text-primary gap-2">
                     <li class="px-3 bg-light">html</li>
                     <li class="px-3 bg-light">Ruby on rails</li>
                     <li class="px-3 bg-light">css</li>
@@ -221,10 +221,10 @@
         </div>
       </div>
     </section>
-    <section id="about">
+    <section id="about" class="container">
       <div class="container">
         <div class="d-flex">
-          <div style="width: 45%; height: 500px" class="pt-5 col-lg-6">
+          <div style="height: 500px" class="pt-5 col-lg-5">
             <h1>
               About<br />
               Myself
@@ -237,34 +237,104 @@
             </p>
             <h5 class="text-uppercase text-primary mt-5">Let's Connect</h5>
             <div>
-              <img src="./images/twitter.png" alt="twitter icon">
-              <img src="./images/Linkedinicon.png" alt="linkedin icon">
-              <img src="./images/gitgub.png" alt="github icon">
-              <img src="./images/Vector.png" alt="Medium icon">
-              <img src="./images/Vector3.png" alt="angelist icon">
+              <img src="./images/twitter.png" alt="twitter icon" />
+              <img src="./images/Linkedinicon.png" alt="linkedin icon" />
+              <img src="./images/gitgub.png" alt="github icon" />
+              <img src="./images/Vector.png" alt="Medium icon" />
+              <img src="./images/Vector3.png" alt="angelist icon" />
             </div>
             <button type="button" class="btn btn-outline-primary mt-5">
               Get my Resume
             </button>
           </div>
-          <div class="px-5 lead">
-            <ul class="list-unstyled">
-              <li class="fs-2">Languages</li>
-              <ul class="list-unstyled d-flex flex-row">
-                <li class="align-items-baseline">
+          <div class="p-5 lead col-7">
+            <ul class="list-unstyled py-5">
+              <li class="fs-3">Languages</li>
+              <ul class="list-unstyled d-flex fs-6 gap-2 py-3">
+                <li
+                  class="d-flex flex-column align-items-lg-baseline px-3 bg-light"
+                >
                   <img src="./images/javascript.png" alt="javascript icon" />
-                  JavaScript
+                  <a href="#" class="text-decoration-none text-dark"
+                    >JavaScript</a
+                  >
                 </li>
-                <li><img src="./images/html.png" alt="HTML icon" /> HTML</li>
-                <li><img src="./images/css.png" alt="Css icon" /> CSS</li>
+                <li
+                  class="d-flex flex-column align-items-lg-baseline px-3 bg-light"
+                >
+                  <img src="./images/html.png" alt="HTML icon" />
+                  <a href="#" class="text-decoration-none text-dark">HTML</a>
+                </li>
+                <li
+                  class="d-flex flex-column align-items-lg-baseline px-3 bg-light"
+                >
+                  <img src="./images/css.png" alt="Css icon" />
+                  <a href="#" class="text-decoration-none text-dark">CSS</a>
+                </li>
               </ul>
-              <li class="fs-2">Frameworks</li>
-              <li class="fs-2">Skills</li>
+              <li
+                class="fs-3 border border-bottom-1 border-start-0 border-top-0 border-end-0"
+              >
+                Frameworks
+              </li>
+              <li
+                class="fs-3 border border-bottom-1 border-start-0 border-top-0 border-end-0"
+              >
+                Skills
+              </li>
             </ul>
           </div>
         </div>
       </div>
     </section>
+    <section id="contact" class="bg-primary">
+      <div class="container col-md-5 p-5">
+        <div class="text-white">
+          <h1 class="text-center">Contact form</h1>
+          <p class="text-center">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
+        </div>
+        <form action="https://formspree.io/f/mpznvrqy" method="post">
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Glory Mugzi"
+              name="name"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+              name="email"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+              placeholder="Type message here"
+              name="message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-light text-primary">
+            Submit
+          </button>
+        </form>
+      </div>
+    </section>
+
     <!-- js scripts -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
